@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalathil Group - Building Spaces. Creating Value.</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: {
+                            800: '#1a233a',
+                            900: '#111827',
+                        },
+                        gold: {
+                            400: '#d4af37',
+                            500: '#c5a028',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+        }
+        .hero-pattern {
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23d4af37' fill-opacity='0.1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        }
+    </style>
+</head>
+<body class="font-sans text-gray-800 antialiased bg-gray-50">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 glass-effect border-b border-gray-200 transition-all duration-300" id="navbar">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <!-- Logo -->
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="#home" class="flex items-center">
+                        <span class="text-2xl font-bold font-serif text-navy-900">Kalathil <span class="text-gold-500">Group</span></span>
+                    </a>
+                </div>
+                
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex space-x-8 items-center">
+                    <a href="#home" class="text-gray-600 hover:text-navy-900 font-medium transition-colors">Home</a>
+                    <a href="#properties" class="text-gray-600 hover:text-navy-900 font-medium transition-colors">Properties</a>
+                    <a href="#services" class="text-gray-600 hover:text-navy-900 font-medium transition-colors">Services</a>
+                    <a href="#contact" class="bg-navy-900 text-white px-6 py-2.5 rounded-full font-medium hover:bg-gold-500 transition-all shadow-lg shadow-navy-900/20">Contact Us</a>
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="text-gray-600 hover:text-navy-900 focus:outline-none p-2">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="#home" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-navy-900 hover:bg-gray-50 rounded-md">Home</a>
+                <a href="#properties" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-navy-900 hover:bg-gray-50 rounded-md">Properties</a>
+                <a href="#services" class="block px-3 py-2 text-base font-medium text-gray-700 hover:text-navy-900 hover:bg-gray-50 rounded-md">Services</a>
+                <a href="#contact" class="block px-3 py-2 text-base font-medium text-gold-500 hover:text-gold-400 rounded-md">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden hero-pattern">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center max-w-4xl mx-auto">
+                <h2 class="text-gold-500 font-semibold tracking-widest uppercase text-sm mb-4">Welcome to Kalathil Group</h2>
+                <h1 class="text-5xl md:text-6xl lg:text-7xl font-serif font-bold text-navy-900 leading-tight mb-6">
+                    Building <span class="text-gold-500">Tomorrow.</span><br>Together.
+                </h1>
+                <p class="mt-4 text-xl text-gray-600 max-w-2xl mx-auto font-light leading-relaxed mb-10">
+                    Your trusted partner for Property Investments, Returns & Residential Solutions in Calicut. Building spaces, creating value.
+                </p>
+                <div class="flex flex-col sm:flex-row justify-center gap-4">
+                    <a href="#properties" class="bg-navy-900 text-white px-8 py-4 rounded-full font-medium text-lg hover:bg-navy-800 transition-all shadow-xl hover:-translate-y-1">Explore Properties</a>
+                    <a href="#contact" class="bg-white text-navy-900 border-2 border-navy-900 px-8 py-4 rounded-full font-medium text-lg hover:bg-gray-50 transition-all">Book a Consult</a>
+                </div>
+            </div>
+            
+            <!-- Quick Stats -->
+            <div class="mt-20 grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto bg-white rounded-3xl p-8 shadow-2xl border border-gray-100">
+                <div class="text-center">
+                    <div class="text-3xl font-bold text-navy-900 mb-1">Prime</div>
+                    <div class="text-sm text-gray-500 uppercase tracking-wide">Locations</div>
+                </div>
+                <div class="text-center border-l border-gray-100">
+                    <div class="text-3xl font-bold text-navy-900 mb-1">Smart</div>
+                    <div class="text-sm text-gray-500 uppercase tracking-wide">Investments</div>
+                </div>
+                <div class="text-center border-l border-gray-100 hidden md:block">
+                    <div class="text-3xl font-bold text-navy-900 mb-1">Strong</div>
+                    <div class="text-sm text-gray-500 uppercase tracking-wide">Returns</div>
+                </div>
+                <div class="text-center border-l border-gray-100 hidden md:block">
+                    <div class="text-3xl font-bold text-navy-900 mb-1">24/7</div>
+                    <div class="text-sm text-gray-500 uppercase tracking-wide">Support</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What We Offer -->
+    <section id="services" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h3 class="text-sm font-bold text-gold-500 uppercase tracking-widest mb-2">Our Expertise</h3>
+                <h2 class="text-4xl font-serif font-bold text-navy-900">What We Offer</h2>
+                <div class="w-24 h-1 bg-gold-500 mx-auto mt-6 rounded-full"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Feature 1 -->
+                <div class="bg-gray-50 p-8 rounded-2xl hover:shadow-xl transition-all duration-300 group border border-gray-100 hover:border-gold-400">
+                    <div class="w-16 h-16 bg-navy-900 text-white rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:bg-gold-500 transition-colors">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-navy-900 mb-3">Residential Properties</h3>
+                    <p class="text-gray-600">Find your dream home in the best locations of Calicut. Handpicked for quality and comfort.</p>
+                </div>
+                <!-- Feature 2 -->
+                <div class="bg-gray-50 p-8 rounded-2xl hover:shadow-xl transition-all duration-300 group border border-gray-100 hover:border-gold-400">
+                    <div class="w-16 h-16 bg-navy-900 text-white rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:bg-gold-500 transition-colors">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-navy-900 mb-3">Property Investments</h3>
+                    <p class="text-gray-600">High potential investments for long-term wealth building in rapidly growing areas.</p>
+                </div>
+                <!-- Feature 3 -->
+                <div class="bg-gray-50 p-8 rounded-2xl hover:shadow-xl transition-all duration-300 group border border-gray-100 hover:border-gold-400">
+                    <div class="w-16 h-16 bg-navy-900 text-white rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:bg-gold-500 transition-colors">
+                        <i class="fas fa-hand-holding-usd"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-navy-900 mb-3">Rental Income Options</h3>
+                    <p class="text-gray-600">Earn steady rental income with our curated properties and management services.</p>
+                </div>
+                <!-- Feature 4 -->
+                <div class="bg-gray-50 p-8 rounded-2xl hover:shadow-xl transition-all duration-300 group border border-gray-100 hover:border-gold-400">
+                    <div class="w-16 h-16 bg-navy-900 text-white rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:bg-gold-500 transition-colors">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-navy-900 mb-3">Safe & Secure</h3>
+                    <p class="text-gray-600">Transparent deals, trusted guidance, and profitable returns on every transaction.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Properties Section -->
+    <section id="properties" class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h3 class="text-sm font-bold text-gold-500 uppercase tracking-widest mb-2">Featured Listings</h3>
+                <h2 class="text-4xl font-serif font-bold text-navy-900">Properties For Sale & Rent</h2>
+                <div class="w-24 h-1 bg-gold-500 mx-auto mt-6 rounded-full"></div>
+            </div>
+
+            <div class="grid lg:grid-cols-3 gap-10">
+                
+                <!-- Property 1: New House for Sale (Lulu Mall) -->
+                <div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 border border-gray-100 flex flex-col">
+                    <div class="relative h-64 bg-gradient-to-br from-blue-400 to-purple-500">
+                        <div class="w-full h-full flex items-center justify-center text-white">
+                            <i class="fas fa-home text-6xl opacity-30"></i>
+                        </div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-navy-900/60 to-transparent"></div>
+                        <div class="absolute top-4 left-4 bg-red-500 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide">For Sale</div>
+                        <div class="absolute bottom-4 right-4 bg-navy-900/90 backdrop-blur text-white px-4 py-2 rounded-xl font-bold border border-white/20">
+                            ₹49 Lakhs
+                        </div>
+                    </div>
+                    <div class="p-8 flex-grow">
+                        <div class="flex items-start justify-between mb-2">
+                            <h3 class="text-2xl font-bold text-navy-900">Well-Maintained 3 BHK</h3>
+                        </div>
+                        <p class="text-gray-500 text-sm mb-4 flex items-center"><i class="fas fa-map-marker-alt text-gold-500 mr-2"></i>Near Lulu Mall, Kozhikode</p>
+                        
+                        <div class="grid grid-cols-2 gap-4 mb-6 pb-6 border-b border-gray-100">
+                            <div class="flex items-center text-gray-600"><i class="fas fa-bed text-navy-900 w-6"></i> 3 Beds</div>
+                            <div class="flex items-center text-gray-600"><i class="fas fa-bath text-navy-900 w-6"></i> 3 Baths</div>
+                            <div class="flex items-center text-gray-600"><i class="fas fa-vector-square text-navy-900 w-6"></i> 2.5 Cent Plot</div>
+                            <div class="flex items-center text-gray-600"><i class="fas fa-ruler-combined text-navy-900 w-6"></i> ~1100 Sq.Ft</div>
+                        </div>
+                        
+                        <div class="mb-6 space-y-2 text-sm text-gray-600">
+                            <p><i class="fas fa-check-circle text-gold-500 mr-2"></i>Parking for 2 Cars + Bikes</p>
+                            <p><i class="fas fa-check-circle text-gold-500 mr-2"></i>Good Water, No Flood Area</p>
+                            <p><i class="fas fa-check-circle text-gold-500 mr-2"></i>Close to Aster MIMS</p>
+                        </div>
+                    </div>
+                    <div class="px-8 pb-8 mt-auto">
+                        <a href="#contact" class="block w-full text-center bg-navy-900 text-white py-3 rounded-xl font-medium hover:bg-gold-500 transition-colors">Schedule Visit</a>
+                    </div>
+                </div>
+
+                <!-- Property 2: Premium Plot + House for Sale (Govindapuram) -->
+                <div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 border border-gray-100 flex flex-col">
+                    <div class="relative h-64 bg-gradient-to-br from-green-400 to-blue-500">
+                        <div class="w-full h-full flex items-center justify-center text-white">
+                            <i class="fas fa-building text-6xl opacity-30"></i>
+                        </div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-navy-900/60 to-transparent"></div>
+                        <div class="absolute top-4 left-4 bg-red-500 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide">For Sale (Investment)</div>
+                        <div class="absolute bottom-4 right-4 bg-green-600/90 backdrop-blur text-white px-4 py-2 rounded-xl font-bold border border-white/20 text-sm">
+                            Potential: ₹75k/mo Rent
+                        </div>
+                    </div>
+                    <div class="p-8 flex-grow">
+                        <div class="flex items-start justify-between mb-2">
+                            <h3 class="text-2xl font-bold text-navy-900">Premium Plot + House</h3>
+                        </div>
+                        <p class="text-gray-500 text-sm mb-4 flex items-center"><i class="fas fa-map-marker-alt text-gold-500 mr-2"></i>Near Govindapuram, MIMS Hospital</p>
+                        
+                        <div class="grid grid-cols-2 gap-4 mb-6 pb-6 border-b border-gray-100">
+                            <div class="flex items-center text-gray-600"><i class="fas fa-bed text-navy-900 w-6"></i> 6 Beds (Attached)</div>
+                            <div class="flex items-center text-gray-600"><i class="fas fa-utensils text-navy-900 w-6"></i> 2 Kitchens</div>
+                            <div class="flex items-center text-gray-600"><i class="fas fa-car text-navy-900 w-6"></i> 3 Car Parking</div>
+                            <div class="flex items-center text-gray-600"><i class="fas fa-vector-square text-navy-900 w-6"></i> 5.25 Cent Total</div>
+                        </div>
+                        
+                        <div class="mb-6 space-y-2 text-sm text-gray-600">
+                            <p><i class="fas fa-star text-gold-500 mr-2"></i>Fully partitioned (Upstairs/Downstairs)</p>
+                            <p><i class="fas fa-star text-gold-500 mr-2"></i>Ideal for Rental Income</p>
+                            <p><i class="fas fa-star text-gold-500 mr-2"></i>Open Terrace & Good Well Facility</p>
+                        </div>
+                    </div>
+                    <div class="px-8 pb-8 mt-auto">
+                        <a href="#contact" class="block w-full text-center border-2 border-navy-900 text-navy-900 py-3 rounded-xl font-medium hover:bg-navy-900 hover:text-white transition-colors">Inquire Now</a>
+                    </div>
+                </div>
+
+                <!-- Property 3: Comfortable Stays (Rentals) -->
+                <div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 border border-gray-100 flex flex-col">
+                    <div class="relative h-64 bg-gradient-to-br from-orange-400 to-red-500">
+                        <div class="w-full h-full flex items-center justify-center text-white">
+                            <i class="fas fa-key text-6xl opacity-30"></i>
+                        </div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-navy-900/60 to-transparent"></div>
+                        <div class="absolute top-4 left-4 bg-navy-900 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide">For Rent / Stay</div>
+                    </div>
+                    <div class="p-8 flex-grow">
+                        <div class="flex items-start justify-between mb-2">
+                            <h3 class="text-2xl font-bold text-navy-900">Comfortable Stays</h3>
+                        </div>
+                        <p class="text-gray-500 text-sm mb-4 flex items-center"><i class="fas fa-map-marker-alt text-gold-500 mr-2"></i>Prime Locations in Calicut</p>
+                        
+                        <div class="grid grid-cols-2 gap-4 mb-6 pb-6 border-b border-gray-100">
+                            <div class="flex items-center text-gray-600"><i class="fas fa-couch text-navy-900 w-6"></i> Fully Furnished</div>
+                            <div class="flex items-center text-gray-600"><i class="fas fa-clock text-navy-900 w-6"></i> Short/Long Term</div>
+                            <div class="flex items-center text-gray-600"><i class="fas fa-broom text-navy-900 w-6"></i> Neat & Clean</div>
+                            <div class="flex items-center text-gray-600"><i class="fas fa-fire-burner text-navy-900 w-6"></i> Cooking Facility</div>
+                        </div>
+                        
+                        <div class="mb-6 space-y-2 text-sm text-gray-600">
+                            <p><i class="fas fa-info-circle text-gold-500 mr-2"></i>1, 2 & 3 BHK Homes available</p>
+                            <p><i class="fas fa-info-circle text-gold-500 mr-2"></i>Ideal for Families & Patient Attendants</p>
+                            <p><i class="fas fa-info-circle text-gold-500 mr-2"></i>Near MIMS, Baby Memorial, Lulu Mall</p>
+                        </div>
+                    </div>
+                    <div class="px-8 pb-8 mt-auto">
+                        <a href="#contact" class="block w-full text-center bg-navy-900 text-white py-3 rounded-xl font-medium hover:bg-gold-500 transition-colors">Book Your Stay</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section class="py-16 bg-navy-900 relative overflow-hidden">
+        <!-- Decorative background elements -->
+        <div class="absolute top-0 right-0 w-64 h-64 bg-gold-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 transform translate-x-1/2 -translate-y-1/2"></div>
+        <div class="absolute bottom-0 left-0 w-64 h-64 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 transform -translate-x-1/2 translate-y-1/2"></div>
+        
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+            <h2 class="text-3xl md:text-4xl font-serif font-bold text-white mb-6">Looking for a Home or a Smart Investment?</h2>
+            <p class="text-gray-300 mb-10 text-lg">We have the right options for you in Calicut. Clean, Safe, and Comfortable. Your comfort is our priority.</p>
+            <div class="inline-flex flex-col sm:flex-row items-center gap-4 bg-white/10 backdrop-blur-md p-6 rounded-3xl border border-white/20">
+                <div class="flex items-center gap-4 text-white">
+                    <div class="w-12 h-12 rounded-full bg-gold-500 flex items-center justify-center text-xl">
+                        <i class="fas fa-phone-alt text-navy-900"></i>
+                    </div>
+                    <div class="text-left">
+                        <p class="text-sm text-gray-300 uppercase tracking-wider">Call Now</p>
+                        <p class="text-xl md:text-2xl font-bold tracking-wider">8891606806 / 8138856631</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contact -->
+    <footer id="contact" class="bg-gray-900 text-white pt-20 pb-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-3 gap-12 border-b border-gray-800 pb-16">
+                
+                <!-- Brand -->
+                <div>
+                    <h3 class="text-2xl font-bold font-serif text-white mb-4">Kalathil <span class="text-gold-500">Group</span></h3>
+                    <p class="text-gray-400 mb-6 max-w-sm">
+                        Building Spaces. Creating Value. Your trusted partner for real estate and property management in Calicut.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="https://instagram.com/kalathil.properties" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-400 hover:bg-gold-500 hover:text-navy-900 transition-colors">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://wa.me/918891606806" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center text-gray-400 hover:bg-green-500 hover:text-white transition-colors">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-lg font-bold text-white mb-6 uppercase tracking-wider">Quick Links</h4>
+                    <ul class="space-y-4">
+                        <li><a href="#home" class="text-gray-400 hover:text-gold-500 transition-colors">Home</a></li>
+                        <li><a href="#services" class="text-gray-400 hover:text-gold-500 transition-colors">What We Offer</a></li>
+                        <li><a href="#properties" class="text-gray-400 hover:text-gold-500 transition-colors">Properties for Sale</a></li>
+                        <li><a href="#properties" class="text-gray-400 hover:text-gold-500 transition-colors">Rental Stays</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h4 class="text-lg font-bold text-white mb-6 uppercase tracking-wider">Contact Us</h4>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt mt-1.5 mr-4 text-gold-500"></i>
+                            <span class="text-gray-400">Calicut, Kerala<br>Serving prime locations across the city.</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-phone-alt mr-4 text-gold-500"></i>
+                            <div class="text-gray-400 flex flex-col">
+                                <a href="tel:8891606806" class="hover:text-white transition-colors">+91 8891606806</a>
+                                <a href="tel:8138856631" class="hover:text-white transition-colors">+91 8138856631</a>
+                            </div>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fab fa-instagram mr-4 text-gold-500"></i>
+                            <a href="https://instagram.com/kalathil.properties" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white transition-colors">@kalathil.properties</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="mt-10 text-center text-gray-500 text-sm flex flex-col md:flex-row justify-between items-center">
+                <p>&copy; 2026 Kalathil Group. All rights reserved.</p>
+                <p class="mt-2 md:mt-0 tracking-widest text-xs uppercase">Serving Calicut. Building Trust. Creating Value.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Menu Toggle
+        const btn = document.getElementById('mobile-menu-btn');
+        const menu = document.getElementById('mobile-menu');
+
+        btn.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu on link click
+        menu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                menu.classList.add('hidden');
+            });
+        });
+
+        // Navbar scroll effect
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 20) {
+                navbar.classList.add('shadow-md', 'bg-white/95');
+                navbar.classList.remove('glass-effect');
+            } else {
+                navbar.classList.remove('shadow-md', 'bg-white/95');
+                navbar.classList.add('glass-effect');
+            }
+        });
+    </script>
+</body>
+</html>
