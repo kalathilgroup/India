@@ -1,0 +1,10 @@
+{
+  "name": "Kalathil Properties",
+  "short_name": "Kalathil",
+  "description": "Furnished apartments, stays and property in Kozhikode (Calicut), Kerala.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#111827",
+  "icons": [{ "src": "assets/kalathil-group-logo.png", "sizes": "512x512", "type": "image/png" }]
+}
