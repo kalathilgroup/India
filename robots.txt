@@ -28,4 +28,4 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
-Sitemap: https://kalathilgroup.github.io/India/sitemap.xml
+Sitemap: https://kalathil.properties/sitemap.xml

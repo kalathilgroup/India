@@ -16,7 +16,7 @@
 - WhatsApp / main phone: +91 88916 06806
 - Other phones: +91 92495 39290 (buying & selling), +91 81388 56631 (support)
 - Instagram: https://www.instagram.com/kalathil.properties/
-- Website: https://kalathilgroup.github.io/India/
+- Website: https://kalathil.properties/
 - Not affiliated with any hospital; hospital names describe location only.
 
 ## Properties for sale
@@ -36,10 +36,15 @@
 Send your name, requirement and required date on WhatsApp to +91 88916 06806. The team replies with available properties, photos, prices and terms.
 
 ## Pages
-- [Home](https://kalathilgroup.github.io/India/): buy, sell, rent, facilities, listings, management, FAQ
-- [Buy & sell property in Kozhikode](https://kalathilgroup.github.io/India/pages/buy-sell-property-kozhikode.html)
-- [Furnished rentals in Kozhikode](https://kalathilgroup.github.io/India/pages/furnished-rentals-kozhikode.html)
-- [Accommodation near MIMS Hospital Kozhikode](https://kalathilgroup.github.io/India/pages/accommodation-near-mims-hospital-kozhikode.html)
-- [Stay near Baby Memorial Hospital Calicut](https://kalathilgroup.github.io/India/pages/accommodation-near-baby-memorial-hospital-kozhikode.html)
-- [Flats & houses for rent in Govindapuram](https://kalathilgroup.github.io/India/pages/flats-for-rent-govindapuram-kozhikode.html)
-- [Furnished apartments in Mankavu / near Lulu Mall](https://kalathilgroup.github.io/India/pages/furnished-apartments-mankavu-kozhikode.html)
+- [Home](https://kalathil.properties/): buy, sell, rent, facilities, listings, management, FAQ
+- [Buy & sell property in Kozhikode](https://kalathil.properties/pages/buy-sell-property-kozhikode.html)
+- [Furnished rentals in Kozhikode](https://kalathil.properties/pages/furnished-rentals-kozhikode.html)
+- [Accommodation near MIMS Hospital Kozhikode](https://kalathil.properties/pages/accommodation-near-mims-hospital-kozhikode.html)
+- [Stay near Baby Memorial Hospital Calicut](https://kalathil.properties/pages/accommodation-near-baby-memorial-hospital-kozhikode.html)
+- [Flats & houses for rent in Govindapuram](https://kalathil.properties/pages/flats-for-rent-govindapuram-kozhikode.html)
+- [Furnished apartments in Mankavu / near Lulu Mall](https://kalathil.properties/pages/furnished-apartments-mankavu-kozhikode.html)
+
+## Blog
+- [Blog home](https://kalathil.properties/blog/): plain-language guides on renting, buying, selling and staying in Kozhikode
+- [Rent or Buy a House in Kozhikode: How to Decide](https://kalathil.properties/blog/rent-or-buy-house-kozhikode-how-to-decide.html): A plain-language way to decide between renting and buying a house in Kozhikode: time horizon, total costs, documents to check and when each option fits.
+- [Hospital Stay in Kozhikode: 10 Questions Before You Book](https://kalathil.properties/blog/hospital-stay-kozhikode-questions-before-you-book.html): Ten practical questions to ask before booking a furnished home for a hospital stay in Kozhikode: kitchen, water, cleaning, access and terms.
